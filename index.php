@@ -19,24 +19,6 @@
             <input type="submit" value="submit">
         </form>
         
-        <?php
-        if($_SERVER["REQUEST METHOD"] == "POST"){
-        $host = test_input($_POST["dbhost"]);
-        $name = test_input($_POST["dbname"]);
-        $user = test_input($_POST["dbuser"]);
-        $passwd = test_input($_POST["dbpasswd"]);
-        
-        }
-            
-        function test_input($data) {
-          $data = trim($data);
-          $data = stripslashes($data);
-          $data = htmlspecialchars($data);
-          return $data;
-        }
-        
-        ?>
-
     </body>
     
 </html>
