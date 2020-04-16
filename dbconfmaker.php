@@ -7,7 +7,7 @@ $passwd = test_input($_POST["dbpasswd"]);
 
 }
 
-function test_input($data) { // Gets rid of all tags from the input
+function test_input($data) { // Gets strips all tags from the input
   $data = trim($data);
   $data = stripslashes($data);
   $data = htmlspecialchars($data);
