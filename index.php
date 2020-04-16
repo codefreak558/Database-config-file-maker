@@ -4,7 +4,7 @@
     <head>
 
         <meta charset="utf-8">
-        <title>Database Info File Maker</title>
+        <title>Database Config File Maker</title>
 
     </head>
 
