@@ -32,7 +32,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
         fwrite($dbfile, $txt);
         $txt = "?>";
         fwrite($dbfile, $txt);
-        echo "File created";
+        echo "<h1>File created</h1>";
         fclose($dbfile);
         }
     }
